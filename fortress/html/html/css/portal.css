@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rajdhani&display=swap');
+
+/* CSS Document */
+
+/* GENERAL STYLES */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background-size: 100% auto;
+	line-height: 1.65em;
+	margin-left: 12.5em;
+}
+
+p {
+	font: 1em 'Roboto';
+	padding-top: .5em;
+	color: #ecf0f1;
+	text-align: center;
+	
+}
+
+h2 {
+	font: 3em 'Work Sans';
+	color: #ecf0f1;
+	line-height: 1.2;
+}
+
+h3 { 
+	font: 2.75em 'Rajdhani';
+	font-weight: 900;
+	padding-bottom: .5em;
+	color: #ecf0f1;
+}
+
+h1 {
+	font: 6em 'Rajdhani';
+	color: #8e44ad;
+	font-weight: 1000;
+	margin-top: .15em;
+	line-height: .85;
+}
+
+h4 {
+	font: 2em 'Work Sans';
+	color: #ecf0f1;
+	padding-top: 1em;
+	padding-left: 1em;
+	
+}
+
+h5 {
+	font: 6em 'Rajdhani';
+	color: #8e44ad;
+	font-weight: 700;
+	text-align: center;
+	padding-bottom: .5em;
+}
+
+h6 {
+		font: 1.75em 'Work Sans';
+	padding-bottom: .5em;
+	color: #8e44ad;	
+}
+
+
+.center {
+	text-align: center;
+}
+
+
+
+.centerbutton {
+  margin-left: 12.5em;
+}
+
+
+.container {
+  max-width: 1200px;
+  width: 85%;
+  margin: 0 auto 2rem;
+  margin-left: 9em;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+section {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.content {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.row {
+  width: 100%;
+  margin: 0;
+  background-color: #bcdef3; 
+}
+
+/* HEADER STYLES */
+
+
+
+.logo {
+    text-align: center;
+}
+
+
+header {
+	background-color: #ecf0f1;
+}
+
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+nav ul li:last-child {
+	margin-right: 0;
+}
+
+nav {
+	
+	font: 1.5em 'Work Sans';
+	color: #2d3436;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	 height: 100%;
+  width: 12.5em; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: #2d3436;
+  overflow-x: hidden; 
+  padding-top: 20px;
+
+}
+
+nav img {
+	margin-right: .75em;
+}
+
+.logoright {
+	padding-left:.8em;
+}
+
+header ul {
+  list-style-type: none;
+  margin-top: 25px;
+  padding: 0;
+  width: 100%
+  
+} 
+
+header li a {
+	width: 100%;
+	margin-left: .2em;
+	margin-right: .6em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+  	display: flex;
+	align-items: center;
+}
+
+header nav a,header nav a:visited {
+color: #ecf0f1;
+	text-decoration: none;
+
+}
+
+header nav a:hover, header nav a:visited:hover {
+	color: #8e44ad;
+}
+
+header .container {
+	margin: 0 auto 1rem;
+}
+
+
+/* HOME STYLES */
+
+.white {
+	background-color: #ecf0f1;
+	padding-bottom: 150px;
+	height: 100%;
+}
+
+.blue {
+	background-image: url("../images/particles.jpg");
+	background-repeat: repeat-y;
+		background-color: #2d3436;
+		padding-bottom: 1em;
+		
+}
+
+.chart {
+	background-color: #2d3436;
+}
+
+.right { 
+	text-align: right;
+} 
+
+.top {
+	padding-top:4em;
+	
+}
+
+
+.status {
+	background-color: #8e44ad;
+}
+
+.box {
+	background-color: #2d3436;
+	width: 12.5em;
+	height: 8em;
+	margin: 1em;
+	text-align: center;
+}
+
+.box2 {
+	background-color: #8e44ad;
+	width: 16em;
+	height: 14em;
+	margin: 1em;
+	text-align: center;
+	
+}
+
+.flex {
+	display: flex; 
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.hvr-grow {
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
+a {
+	text-decoration: none;
+}
+
+/* FRAMEWORK */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class^="col-"] {
+  float: left;
+}
+
+
+
+
+/* 7. Forms */
+
+/* 8. Extras */
+
+
+/* FORMS */
+
+#jForm {
+	position: relative;
+	left: 27%;
+}
+#jForm input.error, #jForm select.error {
+	border: 2px solid red;
+}
+#jForm label.error {
+	font-size: 12px;
+	color: #F00;
+	font-weight: bold;
+	margin-left: 3px;
+}
+
+#submit {
+	padding: 12px 20px;
+    display: inline-block;
+	border-radius: 25px;
+	margin-right: 1em;
+	margin-top: 2em;
+	text-decoration:none;
+	text-align: center;
+	margin-left: 9.5em;
+	font: 1.25em 'Roboto';
+	font-weight: 900;
+	border-radius: 15px;
+	margin-right: 1em;
+	text-decoration:none;
+	background: #8e44ad;
+	color: #ecf0f1;
+	border: 5px solid #ecf0f1;
+	cursor: pointer
+}
+
+
+/* FOOTER */
+
+
+
+/* FRAMEWORK */
+
+.col-12 {width: 100%;}
+
+

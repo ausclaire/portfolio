@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css?family=Signika+Negative');
+@import url('https://fonts.googleapis.com/css?family=Itim');
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand');
+@import url('https://fonts.googleapis.com/css?family=Signika+Negative');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Londrina+Solid');
+@import url('https://fonts.googleapis.com/css?family=Short+Stack');
+@import url('https://fonts.googleapis.com/css?family=Coustard');
+
+/* CSS Document */
+
+/* GENERAL STYLES */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background-color: #4F79B0;
+  background-size: 100% auto;
+  font: 18px/26px 'Open Sans', sans-serif;
+  	color: white;
+	line-height: 1.75em;
+}
+
+
+
+h2 {
+	font: 3.75em 'Signika Negative';
+	text-align: center;
+}
+
+h3 { 
+	font: 1.17em 'Signika Negative';
+	padding-bottom: 1em;
+}
+
+h1 {
+	font: 4em 'Coustard';
+	color: white;
+	text-align: center;
+}
+
+
+
+h4 {
+	font: 2em 'Montserrat';
+	line-height: 1em;
+	padding: 1em 0 2em 0;
+	font-weight: 700;
+}
+
+body {
+
+}
+
+strong {
+	font-weight: 700;
+}
+
+p {margin-bottom: 1em;}
+
+
+
+.container {
+  max-width: 1200px;
+  width: 85%;
+  margin: 0 auto 4rem;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+section {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.content {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.row {
+  width: 100%;
+  margin: 0;
+  background-color: #bcdef3; 
+}
+
+/* HEADER STYLES */
+
+header {
+	margin: 0 auto;
+	padding: 10px 0;
+}
+
+.logo {
+    text-align: center;
+	
+}
+
+
+/* HOME STYLES */
+
+.mar1 {
+	margin-bottom: 1em;
+}
+
+.mar2 {
+	margin-bottom: 3em;
+}
+
+.height  {
+	max-height: 22.5em;
+}
+
+.height2 {
+	max-height: 10em;
+}
+
+.ppadding {
+	padding: 70px 200px 0px;
+}
+
+.left {
+text-align: left; }
+
+.right {
+text-align: left; }
+
+.center {
+text-align: center; }
+
+.button {
+	padding-bottom: 3em;
+}
+
+.button h1 {
+	padding-right: 2em;
+}
+
+.button a {
+    text-transform: uppercase;
+	border-radius: 10px;
+    padding: 12px 20px;
+    margin-top: 9px;
+    display: inline-block;
+	font: 1.25em 'Signika Negative';
+	color:white;
+border:solid 4px white;
+	font-weight: 500;
+	margin-right: 1em;
+	text-decoration:none;
+}
+
+.button a:hover {
+background-color:#F0E442;
+	color:#4F79B0;
+border:solid 4px #F0E442; 
+}
+
+.button p {
+	padding-top: 1em;
+}
+
+
+/* FOOTER */
+
+footer img {
+	max-width:50%
+}
+
+
+/* FRAMEWORK */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class^="col-"] {
+  float: left;
+}
+
+
+
+
+/* [ON SMALL SCREENS] */
+
+@media screen and (max-width: 1140px){
+	.col-2 {width: 50%;
+	text-align:center; }
+	
+	.col-2 img {
+	max-width: 50%}
+	
+		.col-4 {
+	width:100%;
+	text-align:center;}
+	
+	.col-8 {
+	width:100%;
+	}
+	
+	form {
+	width: 100%;}
+	
+	
+
+
+.ppadding {
+	padding: 20px 100px 10px;
+}
+
+}
+
+@media screen and (max-width: 768px){ 
+
+.col-1 {width: 100%;}
+.col-2 {width: 50%;}
+.col-3 {width: 100%;}
+.col-4 {width: 100%;}
+.col-5 {width: 100%;}
+.col-6 {width: 100%;}
+.col-7 {width: 100%;}
+.col-8 {width: 100%;}
+.col-9 {width: 100%;}
+.col-10 {width: 100%;}
+.col-11 {width: 100%;}
+.col-12 {width: 100%;}
+
+	.col-2 img {
+	max-width: 65%}
+	
+.half  {width: 50%;}	
+
+footer .col-1 {width: 8.33%;}
+footer .col-2 {width: 16.66%;}
+footer .col-3 {width: 25%;}
+footer .col-4 {width: 33.33%;}
+
+footer img {
+	max-width:70%
+}
+
+
+form {
+  width: 100%;
+}
+
+
+
+img {
+ max-width:75%; 
+ text-align: center;}
+
+header img { 
+max-width: 50%;
+}
+
+h1 { 
+font-size: 13.5vw }
+
+h2 { 
+font-size: 10vw }
+
+h4 {
+	font-size: 6vw;
+}
+
+.mobile {
+	display:none;
+}
+
+.vertical {
+border-left: 0px solid black;
+padding-left: 0em;
+margin-left: 0em;
+}
+
+.vertical2 {
+border-right: 0px solid black;
+}
+
+
+.container {
+width: 90% }
+
+logo img {
+	padding-bottom: 1em;
+	max-height:1em;
+	max-width:1em;
+}
+
+container {
+	width: 100%;
+}
+
+}
+
+@media all and (min-width:640px){
+
+	.nav { float: right; padding: 10px 0 0 0; }
+	.nav ul li a { padding: 5px 10px; }
+
+}

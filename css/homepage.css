@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+
+/* CSS Document */
+
+/* GENERAL STYLES */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background-color: white;
+  background-size: 100% auto;
+  font: 15px 'Orbitron', sans-serif;
+  	color: #684B67;
+	line-height: 1.75em;
+	
+}
+
+
+
+h2 {
+	font: 3em 'Orbitron';
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 1.5em;
+}
+
+h3 { 
+	font: 1.17em 'Signika Negative';
+	padding-bottom: 1em;
+}
+
+h1 {
+	font: 1.6em 'Orbitron';
+	color: #684B67;
+	text-align: center;
+	margin-top: 1.5em;
+}
+
+
+
+h4 {
+	font: 2em 'Montserrat';
+	line-height: 1em;
+	padding: 1em 0 2em 0;
+	font-weight: 700;
+}
+
+body {
+
+}
+
+strong {
+	font-weight: 700;
+}
+
+p {margin-top: 1em;}
+
+
+
+.container {
+  max-width: 1200px;
+  width: 85%;
+  margin: 0 auto 4rem;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+section {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.content {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.row {
+  width: 100%;
+  margin: 0;
+  background-color: #bcdef3; 
+}
+
+/* HEADER STYLES */
+
+header {
+	margin: 0 auto;
+	
+}
+
+.margintop {
+	margin-top:2.25em;
+}
+
+.pink {
+	color: #F09A97;
+}
+
+.blue {
+	color: #8A9EB4;
+}
+
+.logo {
+    text-align: center;
+	
+}
+
+
+/* HOME STYLES */
+
+.mar1 {
+	margin-bottom: 1em;
+}
+
+.mar2 {
+	margin-bottom: 3em;
+}
+
+.height  {
+	max-height: 22.5em;
+}
+
+.height2 {
+	max-height: 10em;
+}
+
+.ppadding {
+	padding: 20px 100px 0px;
+	margin-top: 3em;
+}
+
+.left {
+text-align: left; }
+
+.right {
+text-align: left; }
+
+.center {
+text-align: center; }
+
+.button a {
+    padding: 12px 20px;
+    margin-top: 39px;
+    display: inline-block;
+	font: 1.25em 'Orbitron';
+	font-weight: 900;
+	border-radius: 5px;
+	margin-top: 5em;
+	text-decoration:none;
+	background: #f09996;
+	color: #ecf0f1;
+	
+}
+
+.button2 a {
+    padding: 12px 20px;
+    margin-top: 39px;
+    display: inline-block;
+	font: 1.25em 'Orbitron';
+	font-weight: 900;
+	border-radius: 5px;
+	margin-top: 5em;
+	text-decoration:none;
+	background: #8a9eb5;
+	color: #ecf0f1;
+	
+}
+
+
+.button a:hover {
+	background: #684b68;
+}
+
+.button2 a:hover {
+	background: #684b68;
+}
+
+
+/* FOOTER */
+
+footer img {
+	max-width:50%
+}
+
+
+/* FRAMEWORK */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class^="col-"] {
+  float: left;
+}
+
+
+
+
+/* [ON SMALL SCREENS] */
+
+@media screen and (max-width: 1140px){
+	
+.col-1 {width: 100%;}
+.col-2 {width: 100%;}
+.col-3 {width: 50%;}
+.col-4 {width: 100%;
+text-align: center;}
+.col-5 {width: 100%;}
+.col-6 {width: 100%;
+text-align: center;}
+.col-7 {width: 100%;}
+.col-8 {width: 100%;}
+.col-9 {width: 100%;}
+.col-10 {width: 100%;}
+.col-11 {width: 100%;}
+.col-12 {width: 100%;}
+
+.button a {
+	margin-top: 1em;
+}
+
+.button2 a {
+	margin-top: 1em;
+}
+
+.mar2 {
+	padding-top: 2em;
+}
+
+.ppadding {
+	padding: 0 3em;
+	margin-top: 0;
+}
+
+h1 {
+	margin-bottom: 1em;
+}
+
+}
+
+
+@media screen and (max-width: 768px){ 
+
+.col-1 {width: 100%;}
+.col-2 {width: 100%;}
+.col-3 {width: 50%;}
+.col-4 {width: 100%;}
+.col-5 {width: 100%;}
+.col-6 {width: 100%;}
+.col-7 {width: 100%;}
+.col-8 {width: 100%;}
+.col-9 {width: 100%;}
+.col-10 {width: 100%;}
+.col-11 {width: 100%;}
+.col-12 {width: 100%;}
+
+
+}
+
+@media all and (min-width:640px){
+
+	.nav { float: right; padding: 10px 0 0 0; }
+	.nav ul li a { padding: 5px 10px; }
+
+}
